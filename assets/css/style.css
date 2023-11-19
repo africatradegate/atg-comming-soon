@@ -11,8 +11,9 @@
 --------------------------------------------------------------*/
 body {
   font-family: 'Open Sans', sans-serif;
-  color: #fff;
-  background: url('../img/bg.jpeg') top center no-repeat;
+  /* color: #fff; */
+  /* background: url('../img/bg.jpeg') top center no-repeat; */
+  background-color: #fff;
   background-size: cover;
   position: relative;
   height: 100vh;
@@ -22,16 +23,6 @@ body {
 .content {
   overflow-y: scroll;
   height: 100vh;
-}
-
-body::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: rgba(34, 34, 34, 0.8);
 }
 
 @media (min-width: 1366px) {
@@ -111,11 +102,11 @@ h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #fff;
+  /* color: #fff; */
 }
 
 #header h2 {
-  color: #eee;
+  /* color: #eee; */
   margin-bottom: 40px;
   font-size: 22px;
 }
@@ -170,7 +161,7 @@ h6 {
 #header .subscribe h4 {
   font-size: 20px;
   font-weight: 600;
-  color: #fff;
+  /* color: #fff; */
   position: relative;
   padding-bottom: 12px;
 }
@@ -178,7 +169,7 @@ h6 {
 #header .subscribe .subscribe-form {
   min-width: 300px;
   margin-top: 10px;
-  background: #fff;
+  /* background: #fff; */
   padding: 6px 10px;
   position: relative;
   text-align: left;
@@ -200,7 +191,7 @@ h6 {
   font-size: 16px;
   padding: 0 20px;
   background: #ff0000;
-  color: #fff;
+  /* color: #fff; */
   transition: 0.3s;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
@@ -266,10 +257,6 @@ h6 {
   margin: 0 10px;
   text-align: center;
   transition: 0.3s;
-}
-
-#header .social-links a:hover {
-  color: #fff;
 }
 
 /*--------------------------------------------------------------
@@ -384,8 +371,8 @@ section {
 .contact .info .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #333;
-  color: #fff;
+  /* background: #333; */
+  /* color: #fff; */
   line-height: 1;
   padding: 8px 0;
   border-radius: 50%;
@@ -398,14 +385,14 @@ section {
 
 .contact .info .social-links a:hover {
   background: #ff0000;
-  color: #fff;
+  /* color: #fff; */
 }
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
   background: #ff0000;
-  color: #fff;
+  /* color: #fff; */
 }
 
 .contact .php-email-form {
@@ -447,7 +434,7 @@ section {
 
 .contact .php-email-form .loading {
   display: none;
-  background: #fff;
+  /* background: #fff; */
   text-align: center;
   padding: 15px;
 }
@@ -471,7 +458,7 @@ section {
   font-size: 14px;
   background: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.2);
-  color: #fff;
+  /* color: #fff; */
 }
 
 .contact .php-email-form input::-moz-placeholder,
@@ -496,7 +483,7 @@ section {
   background: #ff0000;
   border: 0;
   padding: 10px 24px;
-  color: #fff;
+  /* color: #fff; */
   transition: 0.4s;
 }
 
@@ -520,7 +507,7 @@ section {
 #footer {
   background: rgba(19, 19, 19, 0.4);
   padding: 30px 0;
-  color: #fff;
+  /* color: #fff; */
   font-size: 14px;
   position: relative;
 }
@@ -533,7 +520,7 @@ section {
   padding-top: 10px;
   text-align: center;
   font-size: 13px;
-  color: #fff;
+  /* color: #fff; */
 }
 
 #footer .credits a {
